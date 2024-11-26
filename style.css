@@ -1,0 +1,101 @@
+section#firstSection {
+    height: 900px;
+    background-image: url(img/background.png);
+    background-size: cover;
+}
+
+section#firstSection h1 {
+    font-family: 'CMU Serif', sans-serif;
+    font-size: 90px;
+                        
+}
+
+section#firstSection h2 {
+    font-size: 50px;
+}   
+
+section#secondSection img {
+    border-radius: 100%;
+}
+
+section#secondSection h1 {
+    font-size: 35px;
+    color: #d88d66 !important;
+}
+
+section#secondSection p {
+    font-size: 30px;
+}
+
+section#thirdSection {
+    background-color: #e9b784;
+    height: 550px;
+}
+
+section#thirdSection .card {
+    height: 270px;
+}
+
+section#thirdSection h1 {
+    font-family: 'CMU Serif', sans-serif;
+    font-size: 50px;
+}
+
+section#thirdSection h2 {
+    font-size: 27px;
+    color: #d88d66;
+}
+
+section#thirdSection li{
+    font-size: 20px;
+}
+
+section#fourthSection {
+    background-color: #e9b784;
+}
+
+section#fourthSection h1{
+    font-family: 'CMU Serif', sans-serif;
+    font-size: 50px;
+}
+
+section#fourthSection h2{
+    font-size: 50px;
+}
+
+section#fourthSection p{
+    font-size: 25px;
+    /*text-align: justify;*/
+}
+
+section#fifthSection {
+    height: 400px;
+}
+
+section#fifthSection h1 {
+    font-family: 'CMU Serif', sans-serif;
+    font-size: 50px;
+}
+
+section#fifthSection p {
+    font-size: 25px;
+}
+
+section#fifthSection button {
+    background-color:#e9b784 !important;
+    transition: 0.8s ease;
+}
+
+section#fifthSection button:hover {
+    background-color: #d88d66 !important;
+}
+
+footer ul {
+    font-size: 18px;
+}
+
+footer a:hover {
+    color: #d88d66 !important;
+}
+
+
