@@ -1,5 +1,5 @@
 section#firstSection {
-    height: 900px;
+    height: 750px;
     background-image: url(img/background.png);
     background-size: cover;
 }
@@ -29,7 +29,6 @@ section#secondSection p {
 
 section#thirdSection {
     background-color: #e9b784;
-    height: 550px;
 }
 
 section#thirdSection .card {
@@ -65,7 +64,6 @@ section#fourthSection h2{
 
 section#fourthSection p{
     font-size: 25px;
-    /*text-align: justify;*/
 }
 
 section#fifthSection {
