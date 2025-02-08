@@ -1,99 +1,77 @@
-section#firstSection {
-    height: 750px;
-    background-image: url(img/background.png);
-    background-size: cover;
+header {
+    position: sticky;
 }
 
-section#firstSection h1 {
-    font-family: 'CMU Serif', sans-serif;
-    font-size: 90px;
-                        
+h1 {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 6%;
+    font-weight: bold;
 }
 
-section#firstSection h2 {
-    font-size: 50px;
-}   
-
-section#secondSection img {
-    border-radius: 100%;
+h1 span {
+    color: #11b802;
 }
 
-section#secondSection h1 {
-    font-size: 35px;
-    color: #d88d66 !important;
-}
-
-section#secondSection p {
-    font-size: 30px;
-}
-
-section#thirdSection {
-    background-color: #e9b784;
-}
-
-section#thirdSection .card {
-    height: 270px;
-}
-
-section#thirdSection h1 {
-    font-family: 'CMU Serif', sans-serif;
-    font-size: 50px;
-}
-
-section#thirdSection h2 {
-    font-size: 27px;
-    color: #d88d66;
-}
-
-section#thirdSection li{
-    font-size: 20px;
-}
-
-section#fourthSection {
-    background-color: #e9b784;
-}
-
-section#fourthSection h1{
-    font-family: 'CMU Serif', sans-serif;
-    font-size: 50px;
-}
-
-section#fourthSection h2{
-    font-size: 50px;
-}
-
-section#fourthSection p{
+p#name {
     font-size: 25px;
+    font-weight: bold;
 }
 
-section#fifthSection {
-    height: 400px;
+ul.nav a{
+    color: black;
 }
 
-section#fifthSection h1 {
-    font-family: 'CMU Serif', sans-serif;
-    font-size: 50px;
+ul.nav a:hover{
+    color: #11b802;
 }
 
-section#fifthSection p {
-    font-size: 25px;
+button.btn {
+    background-color: #11b802;
 }
 
-section#fifthSection button {
-    background-color:#e9b784 !important;
-    transition: 0.8s ease;
+button.btn:hover {
+    background-color: #276322;
 }
 
-section#fifthSection button:hover {
-    background-color: #d88d66 !important;
+div.container1 {
+    margin: auto;
+    margin-top: 8%;
 }
 
-footer ul {
-    font-size: 18px;
+div.container1 img.round{
+    margin-left: 20%;
+    height: auto;
 }
 
-footer a:hover {
-    color: #d88d66 !important;
+h2 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 2%;
+}
+
+div.container2 {
+    background-color:#276322;
+}
+
+/*============  To enable the display of img when width become thinner  ==============*/
+@media screen and (max-width : 768px) { 
+
+    div.feature {
+        display: flex;
+        justify-content: center;
+    }
+
+    div.feature img {
+        width: 250px;
+    }
+    
+    div.feature img.html, div.feature img.postgresql {
+        padding-bottom: 40px;
+    }
 }
 
 
