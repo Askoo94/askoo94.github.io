@@ -36,9 +36,26 @@ button.btn:hover {
 }
 
 div.container1 {
+    height: 700px;
+    width: 50%;
+    border-radius: 100%;
     margin: auto;
     margin-top: 8%;
+    background: radial-gradient(#11b802, #276322);
+    opacity: 31%;
+    /*display: grid;
+    grid-template-columns: repeat(5, 5fr);
+    grid-template-rows: repeat(10, 1fr);*/
 }
+
+/*
+div.container1 p#first {
+    font-size: 30px;
+    color: black;
+    opacity: 100%;
+    grid-row-start: 2;
+}
+*/
 
 div.container1 img.round{
     margin-left: 20%;
@@ -55,6 +72,8 @@ h2 {
 
 div.container2 {
     background-color:#276322;
+    position: relative;
+    bottom: 200px;
 }
 
 /*============  To enable the display of img when width become thinner  ==============*/
