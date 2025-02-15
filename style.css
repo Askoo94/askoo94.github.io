@@ -50,7 +50,7 @@ div.container1 img.round{
     height: auto;
 }
 
-h2 {
+h2#techstack {
     color: white;
     font-size: 40px;
     text-align: center;
@@ -94,7 +94,6 @@ input.email {
 
 input.email::placeholder {
     color: #a8bba7;
-    font-size: 80%;
 }
 
 input.email:focus {
@@ -115,6 +114,25 @@ input#contact:focus {
 
 input#contact:hover {
     opacity: 75%;
+}
+
+h2.history {
+    font-weight: bold;
+    font-size: 40px;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    bottom: 150px;
+}
+
+div.container4 {
+    background: linear-gradient(#11b802, #005c34);
+    opacity: 31%;
+    height: 700px;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    bottom: 120px;
 }
 
 /*============  To enable the display of img when widget become thinner  ==============*/
