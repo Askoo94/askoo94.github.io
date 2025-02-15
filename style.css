@@ -43,19 +43,7 @@ div.container1 {
     margin-top: 8%;
     background: radial-gradient(#11b802, #276322);
     opacity: 31%;
-    /*display: grid;
-    grid-template-columns: repeat(5, 5fr);
-    grid-template-rows: repeat(10, 1fr);*/
 }
-
-/*
-div.container1 p#first {
-    font-size: 30px;
-    color: black;
-    opacity: 100%;
-    grid-row-start: 2;
-}
-*/
 
 div.container1 img.round{
     margin-left: 20%;
@@ -73,10 +61,64 @@ h2 {
 div.container2 {
     background-color:#276322;
     position: relative;
+    padding-bottom: 10%;
     bottom: 200px;
 }
 
-/*============  To enable the display of img when width become thinner  ==============*/
+div.container3 {
+    width: 70%;
+    margin: auto;
+    padding-bottom: 4%;
+    position: relative;
+    bottom: 340px;
+    background-color: #11b802;
+}
+
+div.container3 p#title {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    width: 50%;
+    margin: auto;
+    padding-top: 5%;
+}
+
+input.email {
+    background-color: #468b41;
+    color: #a8bba7;
+    border: 0px;
+    width: 50%
+    
+}
+
+input.email::placeholder {
+    color: #a8bba7;
+    font-size: 80%;
+}
+
+input.email:focus {
+    border: 0px;
+    outline: none; 
+    opacity: 75%;
+}
+
+input#contact {
+    color: #468b41;
+    border: 0px;
+    outline: none;
+}
+
+input#contact:focus {
+    color: #468b41;
+}
+
+input#contact:hover {
+    opacity: 75%;
+}
+
+/*============  To enable the display of img when widget become thinner  ==============*/
+
 @media screen and (max-width : 768px) { 
 
     div.feature {
@@ -91,6 +133,16 @@ div.container2 {
     div.feature img.html, div.feature img.postgresql {
         padding-bottom: 40px;
     }
+}
+
+/*============  To enable the display at 100% of the input.email when thinner widget  ==============*/
+
+@media screen and (max-width : 575.5px) { 
+
+    input.email {
+        width: 100%;  
+    }
+   
 }
 
 
