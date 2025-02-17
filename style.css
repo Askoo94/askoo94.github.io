@@ -1,6 +1,12 @@
-header {
-    position: sticky;
-}
+/*div.header {
+    position: fixed;
+    margin-left: 5%;
+    top: 0px;
+    background-color: aliceblue;
+    opacity: 50%;
+    z-index: 100;
+    width: 100%;
+}*/
 
 h1 {
     text-align: center;
@@ -52,7 +58,7 @@ div.container1 img.round{
 
 h2#techstack {
     color: white;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     font-weight: bold;
     padding-top: 2%;
@@ -88,7 +94,8 @@ input.email {
     background-color: #468b41;
     color: #a8bba7;
     border: 0px;
-    width: 50%
+    width: 50%;
+    padding-left: 10px;
     
 }
 
@@ -100,29 +107,30 @@ input.email:focus {
     border: 0px;
     outline: none; 
     opacity: 75%;
+    padding-left: 10px;
 }
 
-input#contact {
+input#contactme {
     color: #468b41;
     border: 0px;
     outline: none;
 }
 
-input#contact:focus {
+input#contactme:focus {
     color: #468b41;
 }
 
-input#contact:hover {
+input#contactme:hover {
     opacity: 75%;
 }
 
 h2.history {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 35px;
     width: 80%;
     margin: auto;
     position: relative;
-    bottom: 150px;
+    bottom: 180px;
 }
 
 div.container4 {
@@ -132,7 +140,7 @@ div.container4 {
     width: 80%;
     margin: auto;
     position: relative;
-    bottom: 120px;
+    bottom: 150px;
 }
 
 /*============  To enable the display of img when widget become thinner  ==============*/
