@@ -8,6 +8,11 @@
     width: 100%;
 }*/
 
+header {
+    position: sticky;
+    top: 100px;
+}
+
 h1 {
     text-align: center;
     width: 70%;
@@ -17,7 +22,7 @@ h1 {
 }
 
 h1 span {
-    color: #11b802;
+    color: #7302b8;
 }
 
 p#name {
@@ -30,15 +35,15 @@ ul.nav a{
 }
 
 ul.nav a:hover{
-    color: #11b802;
+    color: #7302b8;
 }
 
 button.btn {
-    background-color: #11b802;
+    background-color: #7302b8;
 }
 
 button.btn:hover {
-    background-color: #276322;
+    background-color: #550f80;
 }
 
 div.container1 {
@@ -47,7 +52,7 @@ div.container1 {
     border-radius: 100%;
     margin: auto;
     margin-top: 8%;
-    background: radial-gradient(#11b802, #276322);
+    background: radial-gradient(#7302b8, #392263);
     opacity: 31%;
 }
 
@@ -65,7 +70,7 @@ h2#techstack {
 }
 
 div.container2 {
-    background-color:#276322;
+    background-color:#392263;
     position: relative;
     padding-bottom: 10%;
     bottom: 200px;
@@ -77,7 +82,7 @@ div.container3 {
     padding-bottom: 4%;
     position: relative;
     bottom: 340px;
-    background-color: #11b802;
+    background-color: #7302b8;
 }
 
 div.container3 p#title {
@@ -91,7 +96,7 @@ div.container3 p#title {
 }
 
 input.email {
-    background-color: #468b41;
+    background-color: #64418b;
     color: #a8bba7;
     border: 0px;
     width: 50%;
@@ -111,7 +116,7 @@ input.email:focus {
 }
 
 input#contactme {
-    color: #468b41;
+    color: #6f418b;
     border: 0px;
     outline: none;
 }
@@ -134,13 +139,95 @@ h2.history {
 }
 
 div.container4 {
-    background: linear-gradient(#11b802, #005c34);
+    background: linear-gradient(#7302b8, #392263);
     opacity: 31%;
     height: 700px;
     width: 80%;
+    border-radius: 2%;
     margin: auto;
     position: relative;
     bottom: 150px;
+}
+
+h2#projects {
+    width: 80%;
+    margin: auto;
+    font-weight: bold;
+    font-size: 35px;
+    padding-bottom: 2.3%;
+}
+
+
+div.container5 {
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    border-radius: 2%;
+    background-image: url(img/full-stack-developer.png);
+}
+
+div.container5:hover, div.container7:hover, div.container8:hover {
+    opacity: 0.6;
+    transition: ease 0.8s;
+    /*transform: scale(1.1);*/
+}
+
+div.container5 p, div.container7 p, div.container8 p{
+    text-decoration: none;
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+    padding-top: 3%;
+    padding-left: 1%;
+}
+
+a.development {
+    text-decoration: none;
+}
+
+div.container6 {
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    margin-top: 1%;
+}
+
+div.container7, div.container8 {
+    height: 100%;
+    width: 49.5%;
+    display: inline-block;
+}
+
+div.container7 {
+    background-image: url(img/front-end-developer.png);
+    border-radius: 2% 0% 0% 2%;
+}
+
+div.container8 {
+    background-image: url(img/back-end-developer.png);
+    border-radius: 0% 2% 2% 0%;
+    margin-left: 0.6%;
+}
+
+/*
+footer {
+    height: 250px;
+    width: 50%;
+    margin: auto;
+    border-radius: 100%;
+    margin-top: 5%;
+    background: radial-gradient(#11b802, #276322);
+    opacity: 31%;
+    position: relative;
+    clip-path: inset(0 0 50% 0);
+
+}*/ 
+
+footer p {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 2%;
 }
 
 /*============  To enable the display of img when widget become thinner  ==============*/
@@ -167,6 +254,27 @@ div.container4 {
 
     input.email {
         width: 100%;  
+    }
+   
+}
+
+/*============  To enable the display at 100% of the div.container7 and 8 when thinner widget  ==============*/
+
+@media screen and (max-width : 1380px) { 
+
+    div.container7, div.container8 {
+        width: 100%;
+        border-radius: 2% 2% 2% 2%;
+    }
+
+    div.container8 {
+        margin-top: 1.5%;
+        position: relative;
+        right: 0.6%;
+    }
+
+    footer p {
+        margin-top: 42%;
     }
    
 }
