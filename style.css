@@ -51,8 +51,7 @@ div.container1 {
     border-radius: 100%;
     margin: auto;
     margin-top: 8%;
-    background: radial-gradient(#7302b8, #392263);
-    opacity: 31%;
+    background: linear-gradient(#7202b865, #39226362);
 }
 
 div.container1 img.round{
@@ -138,8 +137,7 @@ h2.history {
 }
 
 div.container4 {
-    background: linear-gradient(#7302b8, #392263);
-    opacity: 31%;
+    background: linear-gradient(#7202b865, #39226362);
     height: 700px;
     width: 80%;
     border-radius: 2%;
@@ -285,6 +283,25 @@ footer p {
  
     footer {
       margin-top: 70%;
+    }
+ 
+ }
+
+ /*============  To enable the display of the footer  ==============*/
+ @media screen and (max-width : 500px) { 
+
+    footer {
+      margin-top: 100%;
+    }
+ 
+ }
+
+  /*============  To enable the display of the footer  ==============*/
+
+  @media screen and (max-width : 350px) { 
+
+    footer {
+      margin-top: 120%;
     }
  
  }
