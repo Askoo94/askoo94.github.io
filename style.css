@@ -1,16 +1,15 @@
 /*div.header {
     position: fixed;
-    margin-left: 5%;
     top: 0px;
     background-color: aliceblue;
-    opacity: 50%;
+    background: linear-gradient(rgb(136, 103, 156), rgb(123, 91, 143)); 
     z-index: 100;
     width: 100%;
-}*/
+} */
 
 header {
-    position: sticky;
-    top: 100px;
+    width: 90%;
+    margin: auto;
 }
 
 h1 {
@@ -169,7 +168,6 @@ div.container5 {
 div.container5:hover, div.container7:hover, div.container8:hover {
     opacity: 0.6;
     transition: ease 0.8s;
-    /*transform: scale(1.1);*/
 }
 
 div.container5 p, div.container7 p, div.container8 p{
@@ -209,25 +207,20 @@ div.container8 {
     margin-left: 0.6%;
 }
 
-/*
 footer {
-    height: 250px;
-    width: 50%;
+    height: 150px;
     margin: auto;
-    border-radius: 100%;
-    margin-top: 5%;
-    background: radial-gradient(#11b802, #276322);
-    opacity: 31%;
-    position: relative;
-    clip-path: inset(0 0 50% 0);
-
-}*/ 
+    margin-top: 8%;
+    background: linear-gradient(#7202b865, #39226362);
+}
 
 footer p {
     font-weight: bold;
     text-align: center;
-    padding-top: 15%;
-    padding-bottom: 2%;
+    font-size: 16px;
+    position: relative;
+    top: 60px;
+    
 }
 
 /*============  To enable the display of img when widget become thinner  ==============*/
@@ -278,5 +271,23 @@ footer p {
     }
    
 }
+
+/*============  To enable the display of the footer  ==============*/
+@media screen and (max-width : 900px) { 
+
+   footer {
+     margin-top: 60%;
+   }
+}
+
+/*============  To enable the display of the footer  ==============*/
+@media screen and (max-width : 700px) { 
+ 
+    footer {
+      margin-top: 70%;
+    }
+ 
+ }
+
 
 
